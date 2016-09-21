@@ -1,11 +1,28 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/mood_tracker/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/mood_tracker/spec/features/user_feature_spec.rb": [
+        1,
+        null,
         1,
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/mood_tracker/spec/rails_helper.rb": [
@@ -52,8 +69,8 @@
         null,
         null,
         1,
-        0,
-        0,
+        2,
+        2,
         null,
         null,
         null,
@@ -564,6 +581,8 @@
         null,
         null,
         1,
+        1,
+        1,
         null,
         null
       ],
@@ -601,6 +620,21 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/mood_tracker/app/controllers/registrations_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/mood_tracker/app/controllers/user_profiles_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/mood_tracker/app/jobs/application_job.rb": [
         1,
         null
@@ -612,9 +646,22 @@
         null
       ],
       "/Users/Guest/Desktop/mood_tracker/spec/factories.rb": [
-
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/mood_tracker/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1474476320
+    "timestamp": 1474480696
   }
 }
