@@ -6,7 +6,6 @@ describe 'The User profile feature' do
     user = FactoryGirl.create :user
     login_as(user, scope: :user)
     visit new_user_profile_path
-    save_and_open_page
     fill_in 'Name', with: 'Musashi'
     fill_in 'Age', with: '32'
     click_on 'Create User profile'

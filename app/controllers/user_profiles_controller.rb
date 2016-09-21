@@ -1,6 +1,8 @@
 class UserProfilesController < ApplicationController
-  def index
+  before_action :authenticate_user!
 
+  def index
+    @user = current_user
   end
 
   def new
@@ -17,6 +19,7 @@ class UserProfilesController < ApplicationController
   end
 
   def show
+    @user = current_user
     @user_profile = UserProfile.find(params[:id])
   end
 

@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   root to: "user_profiles#index"
   resources :user_profiles
-  resources :dates
+  resources :entries
 
 end

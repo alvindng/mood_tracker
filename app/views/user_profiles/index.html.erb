@@ -1,2 +1,6 @@
 <h1>This is user profile index</h1>
-<%= current_user.email %>
+<% if user_signed_in?%>
+<%= link_to @user.email, user_profile_path(@user.user_profile) %>
+<%else%>
+<%=link_to "Sign In", new_user_session_path%>
+<% end%>

@@ -1,0 +1,32 @@
+<%= form_for Entry.new, remote: true do |f| %>
+ <%= f.label :work%>
+  <%= f.radio_button :work, 1 %>
+  <%= f.radio_button :work, 2 %>
+  <%= f.radio_button :work, 3 %>
+  <%= f.radio_button :work, 4 %>
+  <%= f.radio_button :work, 5 %>
+ <%= f.label :social%>
+  <%= f.radio_button :social, 1 %>
+  <%= f.radio_button :social, 2 %>
+  <%= f.radio_button :social, 3 %>
+  <%= f.radio_button :social, 4 %>
+  <%= f.radio_button :social, 5 %>
+ <%= f.label :health%>
+  <%= f.radio_button :health, 1 %>
+  <%= f.radio_button :health, 2 %>
+  <%= f.radio_button :health, 3 %>
+  <%= f.radio_button :health, 4 %>
+  <%= f.radio_button :health, 5 %>
+ <%= f.label :education%>
+  <%= f.radio_button :education, 1 %>
+  <%= f.radio_button :education, 2 %>
+  <%= f.radio_button :education, 3 %>
+  <%= f.radio_button :education, 4 %>
+  <%= f.radio_button :education, 5 %>
+
+  <%= f.label :date %>
+  <%= f.date_select(:date, :order => [:month, :day, :year]) %>
+
+
+  <%= f.submit %>
+<%end%>
