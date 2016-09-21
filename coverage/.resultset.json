@@ -53,12 +53,19 @@
         null,
         null,
         null,
-        1,
         null,
         1,
         null,
         1,
         null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        3,
+        null,
         null,
         null,
         null,
@@ -69,8 +76,8 @@
         null,
         null,
         1,
-        2,
-        2,
+        3,
+        3,
         null,
         null,
         null,
@@ -579,7 +586,6 @@
         1,
         1,
         null,
-        null,
         1,
         1,
         1,
@@ -592,6 +598,7 @@
         null,
         1,
         null,
+        1,
         null
       ],
       "/Users/Guest/Desktop/mood_tracker/app/models/application_record.rb": [
@@ -633,6 +640,28 @@
         1,
         null,
         null,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/mood_tracker/app/jobs/application_job.rb": [
@@ -641,6 +670,11 @@
       ],
       "/Users/Guest/Desktop/mood_tracker/app/mailers/application_mailer.rb": [
         1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/mood_tracker/app/models/user_profile.rb": [
         1,
         1,
         null
@@ -654,6 +688,32 @@
         null,
         null
       ],
+      "/Users/Guest/Desktop/mood_tracker/spec/features/user_profile_feature_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/Guest/Desktop/mood_tracker/spec/models/user_spec.rb": [
         1,
         null,
@@ -662,6 +722,6 @@
         null
       ]
     },
-    "timestamp": 1474480696
+    "timestamp": 1474483738
   }
 }
