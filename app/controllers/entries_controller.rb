@@ -12,6 +12,7 @@ class EntriesController < ApplicationController
     if @entry.save
       flash[:notice] = 'Entry saved'
 
+
     @graph = [
       {name: "work", data: @user.entries.reduce({}) { |result, entry| result.merge({entry.date => entry.work}) }},
       {name: "social", data: @user.entries.reduce({}) { |result, entry| result.merge({entry.date => entry.social}) }},
@@ -20,9 +21,6 @@ class EntriesController < ApplicationController
     ]
 
 
-      @entries = {}
-      @user.entries.each { |e| @entries[e.date.to_s] = e.work.to_i}
-      @entries = @entries.to_json
 
 
       respond_to do |format|
