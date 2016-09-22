@@ -1,0 +1,27 @@
+<h1>This is user profile index</h1>
+<%= current_user.email %>
+
+<div class="row">
+  <div class="col-sm-6" id='profile'>
+    <h3><%=@user_profile.name%></h3>
+    <h3>Age: <%=@user_profile.age%></h3>
+
+  </div>
+  <div class="col-sm-6" id="chart">
+
+    <%if @user.entries.any?%>
+    
+    <%else%>
+    <h3>NO ENTRIES</h3>
+    <%end %>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6" id="date_form">
+    <%= render 'entries/form' %>
+  </div>
+  <div class="col-sm-6" id="calendar">
+
+  </div>
+</div>
