@@ -20,10 +20,9 @@ class UserProfilesController < ApplicationController
 
   def show
     @user = current_user
-
+    @averageMood = @user.averageMood
+    @totalMood = @user.totalMood
     @entries = @user.entries
-
-
     @user_profile = UserProfile.find(params[:id])
   end
 

@@ -1,7 +1,9 @@
 
 var foo = <%= raw @entries %>
-$('#calendar').append('<%= j render(@entry)%>');
-console.log(foo);
+
 $('#chart').html('<%= j render 'entries/graph', array: @graph%>');
+
+$('#average').text('Average Mood: <%=@averageMood%>');
+$('#total').text('Total Mood: <%=@totalMood%>');
 
 $('#calendar').append('<%= j render(@entry)%>');
